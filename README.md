@@ -12,7 +12,8 @@ Step 4: while in the folder containing the Dockerfile create the container using
 docker build -t get-mac-vendor .
 
 Step 5: run the script using the MAC_ADR env variable to pass your input MAC address (change 44:38:39:ff:ef:57): 
-docker run -it -e "MAC_ADR=44:38:39:ff:ef:57" get-mac-vendor
+docker run -it -e "MAC_ADR=44:38:39:ff:ef:57" get-mac-vendor.
+
 The script displays the vendor's name: for 44:38:39:ff:ef:57 it is: Cumulus Networks, Inc.
 
 ## Security
